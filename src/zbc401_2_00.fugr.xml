@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Demo Funktionsgruppe in BC401 2. Instanz</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBC401_2_00TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBC401_2_00</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_00_ADD_2</FUNCNAME>
+     <SHORT_TEXT>Addieren 2 Zahlen Export Summe</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_ZAHL1</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ZAHL2</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_SUMME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>WRONG_IMPORT</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_ZAHL1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Natürliche Zahl</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ZAHL2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Natürliche Zahl</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SUMME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ergebnis der addition</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WRONG_IMPORT</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Import-Prüfung fehlgeschlagen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_00_GET_SUMME_2</FUNCNAME>
+     <SHORT_TEXT>Summe aus FG transportieren</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_GESAMTSUMME</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_SUMMEN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>Z00_TT_SUMMEN</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_MIN</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_MAX</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_AVG</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EV_GESAMTSUMME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Summe aus FG</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_SUMMEN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Interne Tabelle azf z00_summen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_MIN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Natürliche Zahl</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_MAX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Natürliche Zahl</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_AVG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Natürliche Zahl</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

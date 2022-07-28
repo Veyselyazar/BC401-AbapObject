@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCB_SCARR_00</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Base Agent Persistente SCARR</DESCRIPT>
+    <CATEGORY>11</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>CREATE_PERSISTENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeuge neues persistentes Objekt mit Schlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>CREATE_TRANSIENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeuge transientes Objekt mit Schlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>CURRENT_SPECIAL_OBJECT_INFO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktuelle Klassenspezifische Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>DELETE_PERSISTENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löscht persistentes Objekt mit Schlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>GET_PERSISTENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hole persistentes Objekt mit Schlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>GET_TRANSIENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittle transientes Objekt mit Schlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>MAP_EXTRACT_IDENTIFIER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Extrahiert BKey aus DB-Daten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>MAP_GET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>liest persistente Attribute aus Objekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>MAP_LOAD_FROM_DATABASE_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>liest über BKey identifizierte Objektdaten von DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>MAP_MERGE_IDENTIFIER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt DB-Daten BKey zu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>MAP_SAVE_TO_DATABASE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>speichert Objektdaten auf DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>MAP_SERIALIZE_BKEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>serialisiert den Business Key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>MAP_SET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>setzt persistente Attribute eines Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>PM_CHECK_AND_SET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft und setzt persistente Attribute</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>PM_CREATE_REPRESENTANT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeuge neues Hüllenobjekt und Verwaltungseintrag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>PM_DELETE_PERSISTENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löscht persistentes Objekt von DB</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>PM_LOAD_AND_SET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lädt und setzt persistente Attribute</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>SPECIAL_BKEY_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klassenspezifisch: Suchtabelle Business Keys</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>SPECIAL_OBJECT_INFO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Klassenspezifische Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_BUSINESS_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Betriebswirtschaftlicher Schlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_BUSINESS_KEY_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Objektreferenz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_DB_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeilentyp Persistente Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_DB_DATA_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Persistente Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_DB_DELETE_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Identifikatoren zum Löschen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_OBJECT_REF</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ eines verwalteten Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_OBJECT_REF_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Objektreferenz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_OID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ des generischen Objektidentifikators</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_OID_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Objektidentifikator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_SPECIAL_BKEY_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Suchtabelle Business Keys</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_SPECIAL_OBJECT_INFO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeilentyp Klassenspez. Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_SPECIAL_OBJECT_INFO_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp Klassenspez. Objektdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCB_SCARR_00</CLSNAME>
+     <CMPNAME>TYP_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ des Typidentifikators</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

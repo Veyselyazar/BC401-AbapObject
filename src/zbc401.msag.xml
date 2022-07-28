@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZBC401</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBC401</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Überschreiten Höchstert &amp;1 mit dem Wert &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBC401</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Unterschreiten Minimalwert &amp;1 mit dem Wert &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBC401</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Einer der Importparameter ist Initial - bitte mit werten versehen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBC401</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Name des Mitarbeiters ist nicht gefüllt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBC401</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Flugzeugtyp &amp;1 exisitiert nicht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBC401</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Flugzeugname ist leer</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBC401</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Constructor OBERKLASSE abgebrochen</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
